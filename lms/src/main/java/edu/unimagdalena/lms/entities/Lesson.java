@@ -3,7 +3,6 @@ package edu.unimagdalena.lms.entities;
 
 import jakarta.persistence.*;
 import lombok.*;
-import java.time.Instant;
 import java.util.Objects;
 
 @Entity

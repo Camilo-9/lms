@@ -1,5 +1,5 @@
 
-package edu.unimagdalena.lms.repositorios;
+package edu.unimagdalena.lms.repositories;
 
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.testcontainers.service.connection.ServiceConnection;

@@ -9,9 +9,9 @@ import java.util.Set;
 
 @Entity
 @Table(name = "students")
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
 @Getter
 @Setter
 public class Student{
