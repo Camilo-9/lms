@@ -14,7 +14,6 @@ import java.util.Objects;
 @Getter
 @Setter
 public class Assessment{
-    @Getter
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
