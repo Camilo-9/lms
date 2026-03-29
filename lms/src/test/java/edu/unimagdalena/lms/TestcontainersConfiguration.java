@@ -9,10 +9,9 @@ import org.testcontainers.utility.DockerImageName;
 
 @TestConfiguration(proxyBeanMethods = false)
 class TestcontainersConfiguration{
-
 	@Bean
 	@ServiceConnection
-	PostgreSQLContainer postgresContainer() {
+	PostgreSQLContainer postgresContainer(){
 		return new PostgreSQLContainer(DockerImageName.parse("postgres:latest"));
 	}
 }
