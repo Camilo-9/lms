@@ -1,7 +1,9 @@
 
 package edu.unimagdalena.lms.api.dto;
 
+import java.io.Serializable;
+
 public class InstructorProfileDtos{
-    public record InstructorProfileCreateRequest(String phone, String bio, Long instructorId){}
-    public record InstructorProfileResponse(Long id, String phone, String bio, String instructorName){}
+    public record InstructorProfileCreateRequest(String phone, String bio, Long instructorId) implements Serializable{}
+    public record InstructorProfileResponse(Long id, String phone, String bio, Long instructorId) implements Serializable{}
 }

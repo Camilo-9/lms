@@ -1,3 +1,4 @@
+
 package edu.unimagdalena.lms;
 
 import org.junit.jupiter.api.Test;
@@ -6,10 +7,8 @@ import org.springframework.context.annotation.Import;
 
 @Import(TestcontainersConfiguration.class)
 @SpringBootTest
-class LmsApplicationTests {
-
+class LmsApplicationTests{
 	@Test
-	void contextLoads() {
+	void contextLoads(){
 	}
-
 }
