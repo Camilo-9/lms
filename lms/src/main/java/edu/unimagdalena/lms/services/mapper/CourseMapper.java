@@ -10,6 +10,6 @@ public class CourseMapper{
     }
 
     public static CourseDtos.CourseResponse toResponse(Course c){
-        return new CourseDtos.CourseResponse(c.getId(), c.getTitle(), c.getStatus(), c.isActive(), c.getCreatedAt(), c.getUpdatedAt(), c.getIntructor() != null ? c.getIntructor().getId():null);
+        return new CourseDtos.CourseResponse(c.getId(), c.getTitle(), c.getStatus(), c.isActive(), c.getCreatedAt(), c.getUpdatedAt(), c.getInstructor() != null ? c.getInstructor().getId():null);
     }
 }
